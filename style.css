@@ -1,0 +1,36 @@
+body{
+    background-color: lightgreen;
+    color: purple;
+    font-size: 35px;
+    font-family: monospace;
+}
+
+h1{
+    color: rgb(129, 0, 161);
+    font-family: fantasy;
+}
+
+#show_sketch{
+float: right;
+}
+
+canvas{
+    border: 5px solid rgb(0, 255, 21);
+    border-radius: 20px;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    margin-top: 100px;
+}
+
+@keyframes example{
+    from{box-shadow:1px 1px 35px rgb(252, 0, 0);}
+    to{box-shadow:1px 1px 35px rgb(119, 0, 255);}
+}
+
+p{
+    font-size: 30px;
+    color: orangered;
+    font-family: serif;
+    float: none;
+}
